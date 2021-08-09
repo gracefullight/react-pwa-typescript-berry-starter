@@ -1,9 +1,9 @@
 {
-  "name": "starter",
+  "name": "react-pwa-typescript-berry-starter",
   "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/gracefullight/react-pwa-typescript-berry-starter.git"
   },
   "author": {
     "name": "gracefullight",
