@@ -56,6 +56,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-prettier", "virtual:70a81bc219734c77a16444ad94f09544726134fbbd960118637fd7e72397f966358bdba9c7abd20032a20334d472be4318cc0d87519abb8afb39f19cd4c4b78f#npm:3.4.0"],
             ["http-proxy-middleware", "npm:2.0.1"],
             ["husky", "npm:7.0.1"],
+            ["jotai", "virtual:70a81bc219734c77a16444ad94f09544726134fbbd960118637fd7e72397f966358bdba9c7abd20032a20334d472be4318cc0d87519abb8afb39f19cd4c4b78f#npm:1.3.0"],
             ["lint-staged", "npm:11.1.2"],
             ["pinst", "npm:2.1.6"],
             ["prettier", "npm:2.3.2"],
@@ -13807,6 +13808,56 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["jotai", [
+        ["npm:1.3.0", {
+          "packageLocation": "./.yarn/cache/jotai-npm-1.3.0-a967fb7bdd-e136945b99.zip/node_modules/jotai/",
+          "packageDependencies": [
+            ["jotai", "npm:1.3.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:70a81bc219734c77a16444ad94f09544726134fbbd960118637fd7e72397f966358bdba9c7abd20032a20334d472be4318cc0d87519abb8afb39f19cd4c4b78f#npm:1.3.0", {
+          "packageLocation": "./.yarn/__virtual__/jotai-virtual-b51f3f53a7/0/cache/jotai-npm-1.3.0-a967fb7bdd-e136945b99.zip/node_modules/jotai/",
+          "packageDependencies": [
+            ["jotai", "virtual:70a81bc219734c77a16444ad94f09544726134fbbd960118637fd7e72397f966358bdba9c7abd20032a20334d472be4318cc0d87519abb8afb39f19cd4c4b78f#npm:1.3.0"],
+            ["@types/immer", null],
+            ["@types/optics-ts", null],
+            ["@types/react", "npm:17.0.16"],
+            ["@types/react-query", null],
+            ["@types/urql__core", null],
+            ["@types/valtio", null],
+            ["@types/wonka", null],
+            ["@types/xstate", null],
+            ["@urql/core", null],
+            ["immer", null],
+            ["optics-ts", null],
+            ["react", "npm:17.0.2"],
+            ["react-query", null],
+            ["valtio", null],
+            ["wonka", null],
+            ["xstate", null]
+          ],
+          "packagePeers": [
+            "@types/immer",
+            "@types/optics-ts",
+            "@types/react-query",
+            "@types/react",
+            "@types/urql__core",
+            "@types/valtio",
+            "@types/wonka",
+            "@types/xstate",
+            "@urql/core",
+            "immer",
+            "optics-ts",
+            "react-query",
+            "react",
+            "valtio",
+            "wonka",
+            "xstate"
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["js-tokens", [
         ["npm:4.0.0", {
           "packageLocation": "./.yarn/cache/js-tokens-npm-4.0.0-0ac852e9e2-8a95213a5a.zip/node_modules/js-tokens/",
@@ -17702,6 +17753,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-prettier", "virtual:70a81bc219734c77a16444ad94f09544726134fbbd960118637fd7e72397f966358bdba9c7abd20032a20334d472be4318cc0d87519abb8afb39f19cd4c4b78f#npm:3.4.0"],
             ["http-proxy-middleware", "npm:2.0.1"],
             ["husky", "npm:7.0.1"],
+            ["jotai", "virtual:70a81bc219734c77a16444ad94f09544726134fbbd960118637fd7e72397f966358bdba9c7abd20032a20334d472be4318cc0d87519abb8afb39f19cd4c4b78f#npm:1.3.0"],
             ["lint-staged", "npm:11.1.2"],
             ["pinst", "npm:2.1.6"],
             ["prettier", "npm:2.3.2"],
