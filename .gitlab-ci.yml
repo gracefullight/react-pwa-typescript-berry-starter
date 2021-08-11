@@ -1,0 +1,17 @@
+stages:
+  - build
+  - test
+  - review
+  - pages
+  - deploy
+
+default:
+  image: node:lts-slim
+  interruptible: true
+  timeout: 30m
+
+variables:
+  GIT_DEPTH: "20"
+
+include:
+  - local: .gitlab/ci/*.gitlab-ci.yml
