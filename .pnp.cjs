@@ -71,6 +71,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-leaflet", "virtual:70a81bc219734c77a16444ad94f09544726134fbbd960118637fd7e72397f966358bdba9c7abd20032a20334d472be4318cc0d87519abb8afb39f19cd4c4b78f#npm:3.2.1"],
             ["react-router-dom", "virtual:70a81bc219734c77a16444ad94f09544726134fbbd960118637fd7e72397f966358bdba9c7abd20032a20334d472be4318cc0d87519abb8afb39f19cd4c4b78f#npm:5.2.0"],
             ["react-scripts", "virtual:70a81bc219734c77a16444ad94f09544726134fbbd960118637fd7e72397f966358bdba9c7abd20032a20334d472be4318cc0d87519abb8afb39f19cd4c4b78f#npm:4.0.3"],
+            ["recoil", "virtual:70a81bc219734c77a16444ad94f09544726134fbbd960118637fd7e72397f966358bdba9c7abd20032a20334d472be4318cc0d87519abb8afb39f19cd4c4b78f#npm:0.4.0"],
             ["sass", "npm:1.37.5"],
             ["source-map-explorer", "npm:2.5.2"],
             ["typescript", "patch:typescript@npm%3A4.3.5#~builtin<compat/typescript>::version=4.3.5&hash=d8b4e7"],
@@ -12344,6 +12345,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["hamt_plus", [
+        ["npm:1.0.2", {
+          "packageLocation": "./.yarn/cache/hamt_plus-npm-1.0.2-67a52ee1df-af26ea32db.zip/node_modules/hamt_plus/",
+          "packageDependencies": [
+            ["hamt_plus", "npm:1.0.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["handle-thing", [
         ["npm:2.0.1", {
           "packageLocation": "./.yarn/cache/handle-thing-npm-2.0.1-084baca59e-68071f3130.zip/node_modules/handle-thing/",
@@ -18411,6 +18421,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-leaflet", "virtual:70a81bc219734c77a16444ad94f09544726134fbbd960118637fd7e72397f966358bdba9c7abd20032a20334d472be4318cc0d87519abb8afb39f19cd4c4b78f#npm:3.2.1"],
             ["react-router-dom", "virtual:70a81bc219734c77a16444ad94f09544726134fbbd960118637fd7e72397f966358bdba9c7abd20032a20334d472be4318cc0d87519abb8afb39f19cd4c4b78f#npm:5.2.0"],
             ["react-scripts", "virtual:70a81bc219734c77a16444ad94f09544726134fbbd960118637fd7e72397f966358bdba9c7abd20032a20334d472be4318cc0d87519abb8afb39f19cd4c4b78f#npm:4.0.3"],
+            ["recoil", "virtual:70a81bc219734c77a16444ad94f09544726134fbbd960118637fd7e72397f966358bdba9c7abd20032a20334d472be4318cc0d87519abb8afb39f19cd4c4b78f#npm:0.4.0"],
             ["sass", "npm:1.37.5"],
             ["source-map-explorer", "npm:2.5.2"],
             ["typescript", "patch:typescript@npm%3A4.3.5#~builtin<compat/typescript>::version=4.3.5&hash=d8b4e7"],
@@ -18710,6 +18721,33 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["readdirp", "npm:3.6.0"],
             ["picomatch", "npm:2.2.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["recoil", [
+        ["npm:0.4.0", {
+          "packageLocation": "./.yarn/cache/recoil-npm-0.4.0-f12b01435b-e0bd5fdab8.zip/node_modules/recoil/",
+          "packageDependencies": [
+            ["recoil", "npm:0.4.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:70a81bc219734c77a16444ad94f09544726134fbbd960118637fd7e72397f966358bdba9c7abd20032a20334d472be4318cc0d87519abb8afb39f19cd4c4b78f#npm:0.4.0", {
+          "packageLocation": "./.yarn/__virtual__/recoil-virtual-115f785114/0/cache/recoil-npm-0.4.0-f12b01435b-e0bd5fdab8.zip/node_modules/recoil/",
+          "packageDependencies": [
+            ["recoil", "virtual:70a81bc219734c77a16444ad94f09544726134fbbd960118637fd7e72397f966358bdba9c7abd20032a20334d472be4318cc0d87519abb8afb39f19cd4c4b78f#npm:0.4.0"],
+            ["@types/react", "npm:17.0.17"],
+            ["hamt_plus", "npm:1.0.2"],
+            ["react", "npm:17.0.2"],
+            ["react-dom", "virtual:70a81bc219734c77a16444ad94f09544726134fbbd960118637fd7e72397f966358bdba9c7abd20032a20334d472be4318cc0d87519abb8afb39f19cd4c4b78f#npm:17.0.2"],
+            ["react-native", null]
+          ],
+          "packagePeers": [
+            "@types/react",
+            "react-dom",
+            "react-native",
+            "react"
           ],
           "linkType": "HARD",
         }]
