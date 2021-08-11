@@ -1,38 +1,14 @@
-.App {
-  text-align: center;
+$map-height: 400px;
+
+.TileLayer {
+  filter: grayscale(0.5);
 }
 
-.AppLogo {
-  height: 40vmin;
-  pointer-events: none;
+.MapBox {
+  width: 600px;
+  height: $map-height;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .AppLogo {
-    animation: AppLogoSpin infinite 20s linear;
-  }
-}
-
-.AppHeader {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.AppLink {
-  color: #61dafb;
-}
-
-@keyframes AppLogoSpin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.MapContainer {
+  height: $map-height;
 }
