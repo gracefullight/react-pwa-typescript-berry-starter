@@ -30,46 +30,46 @@ const App: React.FC = () => {
 
   return (
     <Container maxWidth="md" disableGutters>
+      <CssBaseline />
       <Box sx={{ pb: 8 }} ref={ref}>
         <Router />
-        <CssBaseline />
-        <AppBar position="fixed" style={{ top: 'auto', bottom: 0 }}>
-          <BottomNavigation
-            showLabels
-            value={value}
-            onChange={handleNavigationChange}
-          >
-            <BottomNavigationAction
-              label="Home"
-              icon={<Home />}
-              component={Link}
-              to="/"
-              value="/"
-            />
-            <BottomNavigationAction
-              label="Photo"
-              icon={<Photo />}
-              component={Link}
-              to="/#photo"
-              value="/#photo"
-            />
-            <BottomNavigationAction
-              label="Map"
-              icon={<Map />}
-              component={Link}
-              to="/#map"
-              value="/#map"
-            />
-            <BottomNavigationAction
-              label="Setting"
-              icon={<Settings />}
-              component={Link}
-              to="/login"
-              value="/login"
-            />
-          </BottomNavigation>
-        </AppBar>
       </Box>
+      <AppBar position="fixed" style={{ top: 'auto', bottom: 0 }}>
+        <BottomNavigation
+          showLabels
+          value={value}
+          onChange={handleNavigationChange}
+        >
+          <BottomNavigationAction
+            label="Home"
+            icon={<Home />}
+            component={Link}
+            to="/"
+            value="/"
+          />
+          <BottomNavigationAction
+            label="Photo"
+            icon={<Photo />}
+            component={Link}
+            to="/#photo"
+            value="/#photo"
+          />
+          <BottomNavigationAction
+            label="Map"
+            icon={<Map />}
+            component={Link}
+            to="/#map"
+            value="/#map"
+          />
+          <BottomNavigationAction
+            label="Setting"
+            icon={<Settings />}
+            component={Link}
+            to="/login"
+            value="/login"
+          />
+        </BottomNavigation>
+      </AppBar>
     </Container>
   );
 };
