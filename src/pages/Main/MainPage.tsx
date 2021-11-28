@@ -1,9 +1,9 @@
 import React from 'react';
-import Box from '@material-ui/core/Box';
-import ImageList from '@material-ui/core/ImageList';
-import ImageListItem from '@material-ui/core/ImageListItem';
-import Paper from '@material-ui/core/Paper';
-import Stack from '@material-ui/core/Stack';
+import Box from '@mui/material/Box';
+import ImageList from '@mui/material/ImageList';
+import ImageListItem from '@mui/material/ImageListItem';
+import Paper from '@mui/material/Paper';
+import Stack from '@mui/material/Stack';
 import { LatLngExpression } from 'leaflet';
 import { MapContainer, TileLayer, Marker, Tooltip } from 'react-leaflet';
 

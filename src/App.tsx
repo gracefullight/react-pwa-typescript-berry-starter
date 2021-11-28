@@ -7,11 +7,11 @@ import {
   Box,
   Container,
   CssBaseline,
-} from '@material-ui/core';
-import Home from '@material-ui/icons/Home';
-import Photo from '@material-ui/icons/Photo';
-import Map from '@material-ui/icons/Map';
-import Settings from '@material-ui/icons/Settings';
+} from '@mui/material';
+import Home from '@mui/icons-material/Home';
+import Photo from '@mui/icons-material/Photo';
+import Map from '@mui/icons-material/Map';
+import Settings from '@mui/icons-material/Settings';
 
 import Router from './routes/Router';
 
